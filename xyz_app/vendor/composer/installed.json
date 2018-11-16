@@ -1,0 +1,88 @@
+[
+    {
+        "name": "compwright/codeigniter-installers",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/compwright/codeigniter-installers.git",
+            "reference": "adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/compwright/codeigniter-installers/zipball/adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f",
+            "reference": "adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f",
+            "shasum": ""
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev"
+        },
+        "time": "2012-11-12T16:11:38+00:00",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installer\\CodeigniterInstaller"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installer": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathon Hill",
+                "email": "jhill9693@gmail.com",
+                "homepage": "http://jonathonhill.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Composer installers for CodeIgniter",
+        "homepage": "https://github.com/compwright/codeigniter-installers",
+        "keywords": [
+            "MX",
+            "codeigniter",
+            "composer",
+            "core",
+            "hmvc",
+            "installer",
+            "library",
+            "module",
+            "spark",
+            "sparks"
+        ]
+    },
+    {
+        "name": "nerones/codeigniter-phpcs",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nerones/CodeIgniter-for-PHP_CodeSniffer.git",
+            "reference": "5bf888b33af0eb9aa3c9f4a196b0c5017ea0d440"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nerones/CodeIgniter-for-PHP_CodeSniffer/zipball/5bf888b33af0eb9aa3c9f4a196b0c5017ea0d440",
+            "reference": "5bf888b33af0eb9aa3c9f4a196b0c5017ea0d440",
+            "shasum": ""
+        },
+        "time": "2017-08-22T16:47:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas ERNEST",
+                "email": "thomas.ernest@gmail.com"
+            }
+        ],
+        "description": "Rules for codeigniter"
+    }
+]
